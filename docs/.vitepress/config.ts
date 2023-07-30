@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'url';
 import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
@@ -11,5 +12,17 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Conversations', link: '/conversations' }
     ],
+  },
+  transformPageData: (pageData, ctx) => {
+    if (pageData.title === "CONVERSATION_TITLE") {
+      pageData.title = pageData?.params?.id;
+    }
+  },
+  vite: {
+    resolve: {
+      alias: {
+        "@": fileURLToPath(new URL("../../src/", import.meta.url))
+      }
+    }
   }
 });
