@@ -7,6 +7,7 @@ layout: page
 <script setup>
 import { useData } from "vitepress";
 import { computed } from "vue";
+
 import DialogueGraph from "@/components/graph/DialogueGraph.vue";
 
 const { params } = useData();
@@ -18,6 +19,7 @@ const stringtable = computed(() => JSON.parse(params.value.stringtable));
 
 <DialogueGraph
   :class="$style.content"
+  :component="component"
   :conversation="conversation"
   :stringtable="stringtable"
 />

@@ -1,4 +1,4 @@
-import { GraphType } from "./types.js";
+import type { GraphType } from "./types";
 
 interface LayoutEntry {
   node: GraphType["nodes"][number],
@@ -47,8 +47,8 @@ export function layoutNodes(graph: GraphType) {
   for (const [order, column] of columnData.entries()) {
     column.forEach((entry, index) => {
       entry.node.position = {
-        x: order * 200,
-        y: index * 50
+        x: 100 + order * 300,
+        y: 100 + index * 100
       };
     });
   }

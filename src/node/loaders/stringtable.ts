@@ -1,13 +1,8 @@
 import { mkdir, readFile, stat, writeFile } from "fs/promises";
 import { dirname, join } from "path";
-import { ElementCompact, xml2js } from "xml-js";
-import { getGameBase } from "./support.js";
-
-export interface StringTable {
-  Component: string,
-  Name: string,
-  Entries: { id: number, default: string, female: string }[]
-}
+import { xml2js, type ElementCompact } from "xml-js";
+import type { StringTable } from "../../shared/types";
+import { getGameBase } from "./support";
 
 export async function loadStringTable(component: string, name: string) {
   const filepath = join("data/stringtable", component, `${name}.json`);

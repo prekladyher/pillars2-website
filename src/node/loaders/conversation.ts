@@ -1,17 +1,10 @@
-import { ConversationType } from "@/types.js";
 import FastGlob from "fast-glob";
 import { mkdir, readFile, stat, writeFile } from "fs/promises";
 import { dirname, join } from "path";
-import { getGameBase } from "./support.js";
+import type { ConversationMetaType, ConversationType } from "../../shared/types";
+import { getGameBase } from "./support";
 
-export interface ConversationInfo {
-  Component: string;
-  ID: string;
-  Name: string;
-  Filename: string;
-}
-
-export async function loadConversationMeta(): Promise<ConversationInfo[]> {
+export async function loadConversationMeta(): Promise<ConversationMetaType[]> {
   const filename = "data/conversations.json";
   try {
     await stat(filename);
@@ -26,7 +19,7 @@ export async function initConversationMeta()  {
   const conversationFiles = (await FastGlob("*/design/conversations/**/*.conversationbundle" , { 
     cwd: getGameBase(),
   })).sort();
-  const result: ConversationInfo[] = [];
+  const result: ConversationMetaType[] = [];
   for (const conversationFile of conversationFiles) {
     const component = conversationFile.replace(/\/.*/, "");
     const filename = conversationFile.replace(/^[^\/]+\//, "");
