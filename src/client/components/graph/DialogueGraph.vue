@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { buildConversationGraph } from "@/graph/build.js";
-import { type ConversationType } from "@/types.js";
 import { Background } from "@vue-flow/background";
 import { VueFlow, type Edge, type Node } from "@vue-flow/core";
 import { MiniMap } from "@vue-flow/minimap";
 import { ref, toRef, watch } from "vue";
+import { buildConversationGraph } from "../../../shared/graph";
+import type { ConversationType, StringTable } from "../../../shared/types";
 
 const props = defineProps<{
-  conversation: ConversationType;
+  component: string,
+  conversation: ConversationType,
+  stringtable: StringTable,
 }>();
 
 const nodes = ref([] as Node[]);
@@ -20,7 +22,7 @@ watch(
       nodes.value = [];
       edges.value = [];
     } else {
-      const graph = buildConversationGraph(conversation);
+      const graph = buildConversationGraph(conversation, props.stringtable);
       nodes.value = graph.nodes;
       edges.value = graph.edges;
     }
@@ -32,7 +34,7 @@ watch(
 <template>
   <div>
     <VueFlow :nodes="nodes" :edges="edges">
-      <Background pattern-color="#aaa" :gap="8" />
+      <Background pattern-color="#888" :gap="8" />
       <MiniMap />
     </VueFlow>
   </div>

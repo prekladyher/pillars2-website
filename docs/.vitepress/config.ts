@@ -1,5 +1,5 @@
-import { fileURLToPath } from 'url';
-import { defineConfig } from 'vitepress';
+import { fileURLToPath } from "url";
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,7 +21,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        "@": fileURLToPath(new URL("../../src/", import.meta.url))
+        "@": fileURLToPath(new URL("../../src/client", import.meta.url))
       }
     }
   }

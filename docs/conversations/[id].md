@@ -7,6 +7,7 @@ layout: page
 <script setup>
 import { useData } from "vitepress";
 import { computed } from "vue";
+
 import DialogueGraph from "@/components/graph/DialogueGraph.vue";
 
 const { params } = useData();

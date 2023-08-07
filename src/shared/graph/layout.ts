@@ -1,4 +1,4 @@
-import { GraphType } from "./types.js";
+import type { GraphType } from "./types";
 
 interface LayoutEntry {
   node: GraphType["nodes"][number],

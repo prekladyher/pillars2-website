@@ -1,9 +1,10 @@
-import { ConversationType } from "@/types.js";
-import { Position } from "@vue-flow/core";
+import type { ConversationType, GraphType, StringTable } from "../types";
 import { layoutNodes } from "./layout";
-import { GraphType } from "./types";
 
-export function buildConversationGraph(conversation: ConversationType): GraphType {
+export function buildConversationGraph(
+  conversation: ConversationType,
+  stringtable: StringTable
+): GraphType {
   const nodes: GraphType["nodes"] = [];
   const edges: GraphType["edges"] = [];
 
@@ -15,8 +16,8 @@ export function buildConversationGraph(conversation: ConversationType): GraphTyp
         x: 0,
         y: 0
       },
-      sourcePosition: Position.Right,
-      targetPosition: Position.Left,
+      sourcePosition: "right",
+      targetPosition: "left",
       data: node,
     });
 

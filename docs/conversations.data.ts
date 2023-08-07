@@ -1,4 +1,4 @@
-import { loadConversationMeta } from "@/loaders/conversation.js";
+import { loadConversationMeta } from "../src/node/loaders/conversation";
 
 export default {
   async load() {

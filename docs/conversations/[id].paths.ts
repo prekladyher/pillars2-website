@@ -1,6 +1,6 @@
-import { loadConversationData, loadConversationMeta } from "@/loaders/conversation.js";
-import { loadStringTable } from "@/loaders/stringtable.js";
 import { basename, dirname, join } from "path";
+import { loadConversationData, loadConversationMeta } from "../../src/node/loaders/conversation";
+import { loadStringTable } from "../../src/node/loaders/stringtable";
 
 export default {
   async paths() {
