@@ -6,23 +6,17 @@ layout: page
 
 <script setup>
 import { useData } from "vitepress";
-import { computed } from "vue";
-
-import DialogueGraph from "@/components/graph/DialogueGraph.vue";
+import ConversationView from "@/views/ConversationView.vue";
 
 const { params } = useData();
 
-const component = computed(() => params.value.component);
-const conversation = computed(() => JSON.parse(params.value.conversation));
-const stringtable = computed(() => JSON.parse(params.value.stringtable));
+const id = params.value.id;
+const component = params.value.component;
 </script>
 
-<DialogueGraph
-  :class="$style.content"
-  :component="component"
-  :conversation="conversation"
-  :stringtable="stringtable"
-/>
+<ClientOnly>
+  <ConversationView :id="id" :component="component" />
+</ClientOnly>
 
 <style module>
 .content {

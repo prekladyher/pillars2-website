@@ -4,8 +4,10 @@ import { dirname, join } from "path";
 import type { ConversationMetaType, ConversationType } from "../../shared/types";
 import { getGameBase } from "./support";
 
+const DATABASE_BASE = "docs/public/database";
+
 export async function loadConversationMeta(): Promise<ConversationMetaType[]> {
-  const filename = "data/conversations.json";
+  const filename = `${DATABASE_BASE}/conversations.json`;
   try {
     await stat(filename);
   } catch {
@@ -35,7 +37,7 @@ export async function initConversationMeta()  {
 }
 
 export async function loadConversationData(id: string): Promise<ConversationType> {
-  const filename = join(`data/conversations/${id}.json`)
+  const filename = join(`${DATABASE_BASE}/conversations/${id}.json`)
   try {
     await stat(filename);
   } catch {

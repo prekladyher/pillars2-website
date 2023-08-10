@@ -32,7 +32,7 @@ watch(
 </script>
 
 <template>
-  <div>
+  <div class="border">
     <VueFlow :nodes="nodes" :edges="edges">
       <Background pattern-color="#888" :gap="8" />
       <MiniMap />
@@ -40,4 +40,8 @@ watch(
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.border {
+  flex: 1;
+}
+</style>
