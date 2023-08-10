@@ -1,0 +1,906 @@
+{
+  "Component": "exported",
+  "Name": "conversations\\re_scripted_interactions\\re_si_ship_combat",
+  "Entries": [
+    {
+      "id": 3,
+      "default": "The crew of [ShipDuel_OpponentShip] spring into action, scrambling across the deck. Some scurry up the masts to furl and unfurl sails, while others pull at long coils of sea-slick rope.\r\n",
+      "female": ""
+    },
+    {
+      "id": 5,
+      "default": "[Enter Combat] \"Advance!\"",
+      "female": ""
+    },
+    {
+      "id": 6,
+      "default": "[Attempt Retreat.] \"Fall back!\"",
+      "female": ""
+    },
+    {
+      "id": 9,
+      "default": "[Specified 0] relays your order, and your crew leaps into action. [ShipDuel_PlayerShip] beats to windward, tacking between port and starboard with all appropriate speed.\r\n\r\nYour ship is faster and your crew better prepared - you secure the wind gage before [ShipDuel_OpponentShip]'s crew has the opportunity to come about and claim it for themselves.",
+      "female": ""
+    },
+    {
+      "id": 12,
+      "default": "You order your crew to flee with all possible haste.\r\n\r\nThe enemy vessel recedes behind you until, finally, it disappears from the horizon.",
+      "female": ""
+    },
+    {
+      "id": 13,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Ram\"><sprite=\"Inline\" name=\"action_full_sail\" tint=1></link> \"Ramming speed!\"",
+      "female": ""
+    },
+    {
+      "id": 14,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Half_Sail\"><sprite=\"Inline\" name=\"action_half_sail\" tint=1></link> \"Half sail!\" ([ShipDuel_PlayerHalfSailDist])",
+      "female": ""
+    },
+    {
+      "id": 15,
+      "default": "<link=\"glossary://GlossaryEntry_Action_FireCannons\"><sprite=\"Inline\" name=\"action_fire\" tint=1></link> \"Fire the forward cannons!\"",
+      "female": ""
+    },
+    {
+      "id": 16,
+      "default": "The crew rush to jibe the mainsail, no more keen on a fight they didn't expect than you are.\r\n\r\nAs they release the sails, [ShipDuel_PlayerShip] slowly turns downwind. Sails full to straining, she beats a hasty retreat with the wind hard at her back.",
+      "female": ""
+    },
+    {
+      "id": 19,
+      "default": "You are left alone on the high seas.",
+      "female": ""
+    },
+    {
+      "id": 21,
+      "default": "With her sails full and the wind at her back, [ShipDuel_PlayerShip] cuts across the open water toward the enemy vessel.",
+      "female": ""
+    },
+    {
+      "id": 26,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Jibe\"><sprite=\"Inline\" name=\"action_reverse\" tint=1></link> \"Prepare to jibe!\"",
+      "female": ""
+    },
+    {
+      "id": 27,
+      "default": "Your cannon fire tears through the enemy ship's sails, leaving them a tattered ruin.",
+      "female": ""
+    },
+    {
+      "id": 28,
+      "default": "Your cannon fire smashes through the deck of the opposing ship, leaving a ruin in its wake.",
+      "female": ""
+    },
+    {
+      "id": 30,
+      "default": "The crew scurry up the masts and unfurl the remaining sails. The ship surges forward with new power. Your crew throw themselves against the railings and brace for impact.",
+      "female": ""
+    },
+    {
+      "id": 31,
+      "default": "Your ship chews through the water, barreling down the back of waves and surging up the face. Sea spray drenches the main deck.\r\n\r\nWith a deafening crunch, [ShipDuel_PlayerShip] and [ShipDuel_OpponentShip] collide, sending shards of wood and enemy sailors flying.",
+      "female": ""
+    },
+    {
+      "id": 32,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Dive\"><sprite=\"Inline\" name=\"action_dive\" tint=1></link> \"Prepare to dive!\"",
+      "female": ""
+    },
+    {
+      "id": 33,
+      "default": "All compartments report that they're prepared to dive.\r\n\r\n[Specified 0] rings the dive alert bell, and the submarine slips beneath the waves.",
+      "female": ""
+    },
+    {
+      "id": 34,
+      "default": "[ShipDuel_OpponentShip] maneuvers to bear down on you, aiming its artillery squarely at [Player Ship].\r\n\r\nThe distant thunder of cannon fire echoes across the sea.",
+      "female": ""
+    },
+    {
+      "id": 35,
+      "default": "[ShipDuel_OpponentShip] lets out its sails and moves with the full force of the wind at its back.",
+      "female": ""
+    },
+    {
+      "id": 47,
+      "default": "[ShipDuel_OpponentShip] retreats from you, its crew frantically unfurling its remaining sails to catch the wind. Soon, the ship is little more than a speck on the horizon.",
+      "female": ""
+    },
+    {
+      "id": 48,
+      "default": "[ShipDuel_OpponentShip] unfurls its sails to catch the wind. It cuts through the water, triumphs cracking like whips in the wind.",
+      "female": ""
+    },
+    {
+      "id": 68,
+      "default": "Your cannon fire flies clear over the deck of the enemy ship, missing the vessel's broadside and sails entirely.",
+      "female": ""
+    },
+    {
+      "id": 71,
+      "default": "Your cannon fire shreds most of the enemy's sails from bow to stern, leaving but a small handful untouched, and punches through the ship's hull. The panicked shouts and cries of the enemy sailors find your ears across the water.",
+      "female": ""
+    },
+    {
+      "id": 74,
+      "default": "Sea water pours into the holes in [ShipDuel_OpponentShip]'s hull. In moments, the ship is half-submerged.\r\n\r\nAn explosion in the hold rends the ship apart. A cloud of thick black smoke balloons into the sky, and the wind carries its scent to you. Gunpowder.",
+      "female": ""
+    },
+    {
+      "id": 76,
+      "default": "The broadside of the opposing ship erupts in an explosion of wood. Acrid smoke from the enemy's own cannon fire rolls across the water.",
+      "female": ""
+    },
+    {
+      "id": 80,
+      "default": "Your sails disintegrate under the enemy's cannon fire, becoming more cobweb than wing.\r\n\r\nYour rigging snaps. Ropes no longer held taut whip through the air, dashing unsuspecting members of your crew to the deck.",
+      "female": ""
+    },
+    {
+      "id": 81,
+      "default": "The enemy cannon fire crashes to your deck, sparking cries of dismay from your crew.",
+      "female": ""
+    },
+    {
+      "id": 82,
+      "default": "The enemy captain orders the gunners to fire on an up swell while your ship is on the down. The cannon fire arcs over your deck and whistles past your sails, missing both entirely.",
+      "female": ""
+    },
+    {
+      "id": 100,
+      "default": "The enemy ship's cannon fire pummels your hull, punching large holes from your deck down to your hold.",
+      "female": ""
+    },
+    {
+      "id": 101,
+      "default": "The enemy's cannons roar, announcing another volley. The sound of their fire tearing through the hull is incessant and bone-shaking.",
+      "female": ""
+    },
+    {
+      "id": 103,
+      "default": "[Specified 0] rallies your crew for combat. \"Run out the guns! Ready aim!\"\r\n\r\nThe gunners point their cannons toward the enemy ship.\r\n\r\n\"Fire!\"\r\n\r\nDeafening percussive blasts erupt from your gunnery. Cannon fire soars toward [ShipDuel_OpponentShip].",
+      "female": ""
+    },
+    {
+      "id": 105,
+      "default": "[Specified 0] relays orders to the crew. \"Fire on the next up roll!\"\r\n\r\nAs the ship crests over the peak of a wave, your cannoneers fire a deafening volley at the opposing ship.",
+      "female": ""
+    },
+    {
+      "id": 107,
+      "default": "<sprite=\"Inline\" name=\"action_full_sail\" tint=1> \"Open sails to full!\"",
+      "female": ""
+    },
+    {
+      "id": 108,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Full_Sail\"><sprite=\"Inline\" name=\"action_full_sail\" tint=1></link> \"Full speed ahead!\" ([ShipDuel_PlayerFullSailDist])",
+      "female": ""
+    },
+    {
+      "id": 109,
+      "default": "Your cannon fire shreds the enemy's sails from bow to stern, obliterates its deck, and punches through the ship's hull. The screams and moans of the enemy ship's crew find your ears across the water.",
+      "female": ""
+    },
+    {
+      "id": 110,
+      "default": "Your cannon fire shreds the enemy's sails from bow to stern, leaving none unscathed. It finds the enemy deck and renders it little more than a splintered maw.",
+      "female": ""
+    },
+    {
+      "id": 111,
+      "default": "Your cannonballs render their deck little more than a splintered maw. They punch through the ship's hull and keep going, leaving a trail of ruin behind them.",
+      "female": ""
+    },
+    {
+      "id": 112,
+      "default": "Cannon fire slams into your ship, shredding your sails. Little more than tatters hang in the breeze.\r\n\r\nCannonballs crash into your deck, destroying your rigging and damaging your masts.",
+      "female": ""
+    },
+    {
+      "id": 113,
+      "default": "Cannon fire punches through your hull and crashes into your deck, destroying your rigging and damaging your masts.",
+      "female": ""
+    },
+    {
+      "id": 114,
+      "default": "Cannon fire shreds your sails and punches through your hull, leaving smashed cargo and guns in its wake.",
+      "female": ""
+    },
+    {
+      "id": 120,
+      "default": "Choose a course of action.",
+      "female": ""
+    },
+    {
+      "id": 132,
+      "default": "[Specified 0] and [Specified 1] clamber up the main mast and unfurl the remaining sails.\r\n\r\nThe sails billow out and catch the wind in full. [ShipDuel_PlayerShip] leaps forward.",
+      "female": ""
+    },
+    {
+      "id": 133,
+      "default": "The wind at your back grows, howling in your ears.\r\n\r\nYour ship crashes through the waves as the wind drives it forward.",
+      "female": ""
+    },
+    {
+      "id": 134,
+      "default": "Your deckhands unfurl the remaining sails and [ShipDuel_PlayerShip] charges forward. The crew throw themselves against the railings and brace for impact.",
+      "female": ""
+    },
+    {
+      "id": 135,
+      "default": "Boatswain [Specified 0] strides across the deck, stirring your deckhands to action.\r\n\r\n[ShipDuel_PlayerShip]'s sails catch the wind. Your ship hastens toward the enemy vessel.",
+      "female": ""
+    },
+    {
+      "id": 137,
+      "default": "Sure in her advantage, [ShipDuel_PlayerShip] moves toward the enemy ship at a steady, relentless clip.",
+      "female": ""
+    },
+    {
+      "id": 138,
+      "default": "The enemy crew might be spoiling for a fight, but you're in no hurry to give it to them. You advance toward the opposing ship on your own time.",
+      "female": ""
+    },
+    {
+      "id": 139,
+      "default": "Your cannon fire tears through the enemy's ship, splintering the hull and shredding the sails. Before you have a chance to celebrate, the enemy ship abruptly explodes with a deafening <i>boom</i>.\r\n\r\nYour cannon fire must have found their gunpowder stores.",
+      "female": ""
+    },
+    {
+      "id": 141,
+      "default": "\"Kill the captain and capture the crew! We can't let a fortune like this get away!\"",
+      "female": ""
+    },
+    {
+      "id": 142,
+      "default": "\"Both Benweth's bounty and loot aplenty! It's our lucky day!\"",
+      "female": ""
+    },
+    {
+      "id": 143,
+      "default": "\"Stay light on your feet, now! Don't let the bastards get close!\"",
+      "female": ""
+    },
+    {
+      "id": 144,
+      "default": "\"You can't scare me! I'm no coward!\"",
+      "female": ""
+    },
+    {
+      "id": 145,
+      "default": "<i>Chhhrr - krek - kek - isss</i>",
+      "female": ""
+    },
+    {
+      "id": 146,
+      "default": "\"Casità, my missiles desire parley!\"",
+      "female": ""
+    },
+    {
+      "id": 147,
+      "default": "\"The thunder rolled like waves on black seas and seven men, onto the deck they went!\"",
+      "female": ""
+    },
+    {
+      "id": 148,
+      "default": "\"Vidòrio, my friends, and we will celebrate like Landing Day ten times over!\"",
+      "female": ""
+    },
+    {
+      "id": 149,
+      "default": "\"Even the Kamoa warriors were not as strong as we!\"",
+      "female": ""
+    },
+    {
+      "id": 150,
+      "default": "\"We rise like Ondra's tide. Advance!\"",
+      "female": ""
+    },
+    {
+      "id": 151,
+      "default": "\"Ekera, what a beautiful ship! What say I take it off your hands?\"",
+      "female": ""
+    },
+    {
+      "id": 152,
+      "default": "\"As surely as the winds fill my sails, may they abandon yours!\"",
+      "female": ""
+    },
+    {
+      "id": 153,
+      "default": "\"Do you feel the Pallid Knight's breath on your neck? Do you hear the Usher's welcoming words in your ear?\"",
+      "female": ""
+    },
+    {
+      "id": 154,
+      "default": "\"You shall make a fine prize!\"",
+      "female": ""
+    },
+    {
+      "id": 155,
+      "default": "\"Turn the wheel and look to windward! We must not let them gain advantage!\"",
+      "female": ""
+    },
+    {
+      "id": 156,
+      "default": "\"Blow cold the swift wind of death! Rise high the dark wave!\"",
+      "female": ""
+    },
+    {
+      "id": 157,
+      "default": "\"Steady the deck, I've got them in my sights!\"",
+      "female": ""
+    },
+    {
+      "id": 158,
+      "default": "\"Show me how clever you are. I shall hate to be disappointed.\"",
+      "female": ""
+    },
+    {
+      "id": 159,
+      "default": "\"Your fear, it rings in my mind like a bell!\"",
+      "female": ""
+    },
+    {
+      "id": 160,
+      "default": "\"The weight of my coin purse foretells your defeat!\"",
+      "female": ""
+    },
+    {
+      "id": 161,
+      "default": "\"I know this sea as I know my own hand. You cannot hide from me!\"",
+      "female": ""
+    },
+    {
+      "id": 162,
+      "default": "\"Die swiftly, and perhaps I will be home in time to bed your mother!\"",
+      "female": ""
+    },
+    {
+      "id": 163,
+      "default": "\"Gellarde! A worthy foe at last!\"",
+      "female": ""
+    },
+    {
+      "id": 164,
+      "default": "\"I will reap what you have sown!\"",
+      "female": ""
+    },
+    {
+      "id": 165,
+      "default": "\"Double grog rations to whoever takes the captain alive!\"",
+      "female": ""
+    },
+    {
+      "id": 166,
+      "default": "\"My crew will tear you limb from limb and care nothing for your screams!\"",
+      "female": ""
+    },
+    {
+      "id": 167,
+      "default": "\"Magran's forge demands fuel for its fire!\"",
+      "female": ""
+    },
+    {
+      "id": 168,
+      "default": "\"We will rake you from stem to stern!\"",
+      "female": ""
+    },
+    {
+      "id": 169,
+      "default": "\"You are but a nail beneath our hammers!\"",
+      "female": ""
+    },
+    {
+      "id": 171,
+      "default": "The ship draws near, and its crew throws open the gun ports.",
+      "female": ""
+    },
+    {
+      "id": 172,
+      "default": "With a rousing cry, your crew throw grappling hooks and boarding planks across the gap between the two ships.\r\n\r\nThey stream onto the ship's deck, weapons at the ready. The stunned enemy crew rally and meet your sailors with the resounding boom of gunfire and clang of steel on steel.",
+      "female": ""
+    },
+    {
+      "id": 173,
+      "default": "The crew scurry up the masts and unfurl the remaining sails. The ship bucks forward, surging with the added wind.\r\n\r\nAs you near the enemy ship, your momentum slows. The wind has died at your back, leaving your ship just short of its goal and in range of the enemy's cannons.",
+      "female": ""
+    },
+    {
+      "id": 174,
+      "default": "Fire engulfs the enemy ship. Smoke, black and acrid, spirals into the sky.\r\n\r\nWater floods the ship's hold, and the flaming vessel soon slips beneath the waves, wiped from the surface of the sea as summarily as if it had never sailed at all.",
+      "female": ""
+    },
+    {
+      "id": 175,
+      "default": "Before you can blink, the bulk of the ship disappears below the waves. All that remains are the main mast and its tattered sails, upright in final salute, before they, too, are taken by the sea.",
+      "female": ""
+    },
+    {
+      "id": 178,
+      "default": "Soon, the only sound you can hear over the din of cannon fire is the splinter and moan of [ShipDuel_PlayerShip]. Your crew is dead.\r\n\r\nThe ship tilts beneath you and slides with little more than a whisper into the arms of the sea.",
+      "female": ""
+    },
+    {
+      "id": 180,
+      "default": "[Specified 0] relays your orders to the crew. \"Man your stations! Prepare for impact!\"",
+      "female": ""
+    },
+    {
+      "id": 181,
+      "default": "[Specified 0] relays your orders and the ship picks up speed, slicing through the waves.",
+      "female": ""
+    },
+    {
+      "id": 182,
+      "default": "[Specified 0] shouts down the length of the submarine. \"Rig for silent running! Standard speed.\"",
+      "female": ""
+    },
+    {
+      "id": 184,
+      "default": "The vessel keeps its distance, skulking about your periphery like a feral cat outside a slaughterhouse.\r\n\r\nIt makes no attempt to hail you.",
+      "female": ""
+    },
+    {
+      "id": 185,
+      "default": "[Enter Combat.] \"Easy prey!\"",
+      "female": ""
+    },
+    {
+      "id": 186,
+      "default": "[Retreat.] \"Let them be.\"",
+      "female": ""
+    },
+    {
+      "id": 188,
+      "default": "The opposing ship unfurls its sails to catch the wind. It cuts through the water, triumphs cracking like whips in the wind.",
+      "female": ""
+    },
+    {
+      "id": 191,
+      "default": "The opposing ship lets out its sails and moves with the full force of the wind at its back.",
+      "female": ""
+    },
+    {
+      "id": 192,
+      "default": "You hear the shouts of the enemy ship's boatswain over the sound of the water, ordering the crew to their stations.\r\n\r\nSailors climb the rigging like spiders and let loose the sails.",
+      "female": ""
+    },
+    {
+      "id": 195,
+      "default": "The opposing vessel maneuvers to bear down on you, aiming its artillery squarely at [Player Ship].\r\n\r\nThe distant thunder of cannon fire echoes across the sea.",
+      "female": ""
+    },
+    {
+      "id": 196,
+      "default": "The crew of the opposing vessel hurry to take their positions at their guns.\r\n\r\nFollowing a cry from their boatswain, the thunder of cannon fire echoes across the sea.",
+      "female": ""
+    },
+    {
+      "id": 200,
+      "default": "The opposing ship turns tail and flees downwind. Soon, the ship is little more than a speck on the horizon.",
+      "female": ""
+    },
+    {
+      "id": 201,
+      "default": "The opposing captain calls a retreat, and the crew scrambles to ready the sails. The enemy ship executes a hurried turn and heads downwind, sailing as close to the wind as they're able.",
+      "female": ""
+    },
+    {
+      "id": 205,
+      "default": "The crew of [ShipDuel_OpponentShip] spring into action, racing for their stations.",
+      "female": ""
+    },
+    {
+      "id": 206,
+      "default": "The enemy crew scurry to their stations in preparation for maneuvers.",
+      "female": ""
+    },
+    {
+      "id": 207,
+      "default": "[ShipDuel_PlayerShip] beats to windward, tacking between port and starboard with all appropriate speed.\r\n\r\nYour ship is faster and your crew better prepared - you secure the wind gage before [ShipDuel_OpponentShip]'s crew has the opportunity to come about and claim it for themselves.",
+      "female": ""
+    },
+    {
+      "id": 208,
+      "default": "With some quick maneuvering, [ShipDuel_PlayerShip] secures the wind gage before [ShipDuel_OpponentShip] has the chance to come about and claim it for themselves.",
+      "female": ""
+    },
+    {
+      "id": 210,
+      "default": "Water pours through the holes in [ShipDuel_OpponentShip]'s hull. In little more than an instant, the ship is half-submerged. Her sailors leap from the deck into the sea. They cling to flotsam and scattered cargo, sputtering and wild-eyed.",
+      "female": ""
+    },
+    {
+      "id": 211,
+      "default": "As the ship crests over the peak of a wave, your cannoneers fire a deafening volley at the opposing ship.",
+      "female": ""
+    },
+    {
+      "id": 213,
+      "default": "[Specified 0] points to a dark spot on the distant horizon.\r\n\r\n\"Captain, a vessel approaches.\"\r\n\r\nYou squint to the horizon and see unfamiliar colors snapping in the breeze.",
+      "female": ""
+    },
+    {
+      "id": 215,
+      "default": "The enemy crew scurry to their stations in preparation for maneuvers.",
+      "female": ""
+    },
+    {
+      "id": 217,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Hold\"><sprite=\"Inline\" name=\"action_hold\" tint=1></link> \"Hold position!\"",
+      "female": ""
+    },
+    {
+      "id": 218,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Turn_Port\"><sprite=\"Inline\" name=\"action_left\" tint=1></link> \"Turn to port!\"",
+      "female": ""
+    },
+    {
+      "id": 219,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Turn_Starboard\"><sprite=\"Inline\" name=\"action_right\" tint=1></link> \"Turn to starboard!\"",
+      "female": ""
+    },
+    {
+      "id": 222,
+      "default": "The crew scramble to take in the sails, bringing the ship nearly to a standstill.",
+      "female": ""
+    },
+    {
+      "id": 224,
+      "default": "The helmsman spins the wheel to port as the crew trim the sails.",
+      "female": ""
+    },
+    {
+      "id": 226,
+      "default": "The helmsman spins the wheel to starboard as the crew trim the sails.",
+      "female": ""
+    },
+    {
+      "id": 228,
+      "default": "Your opponents' sails hang empty as their ship comes to a stop. The wind has died.",
+      "female": ""
+    },
+    {
+      "id": 231,
+      "default": "The opposing captain swings [ShipDuel_OpponentShip] to port.",
+      "female": ""
+    },
+    {
+      "id": 232,
+      "default": "The opposing captain swings [ShipDuel_OpponentShip] to starboard.",
+      "female": ""
+    },
+    {
+      "id": 234,
+      "default": "The opposing ship comes about and reverses course.",
+      "female": ""
+    },
+    {
+      "id": 236,
+      "default": "The opposing crew scramble across the deck as their captain orders them to new stations.",
+      "female": ""
+    },
+    {
+      "id": 240,
+      "default": "[ShipDuel_PlayerShip] races ahead of [ShipDuel_OpponentShip], keeping the cannons aligned to fire.",
+      "female": ""
+    },
+    {
+      "id": 241,
+      "default": "The crew rush to jibe the mainsail and bring [ShipDuel_PlayerShip] around.",
+      "female": ""
+    },
+    {
+      "id": 242,
+      "default": "<link=\"glossary://GlossaryEntry_Action_FireCannons\"><sprite=\"Inline\" name=\"action_fire\" tint=1></link> \"Fire the aft cannons!\"",
+      "female": ""
+    },
+    {
+      "id": 243,
+      "default": "<link=\"glossary://GlossaryEntry_Action_FireCannons\"><sprite=\"Inline\" name=\"action_fire\" tint=1></link> \"Fire the port cannons!\"",
+      "female": ""
+    },
+    {
+      "id": 244,
+      "default": "<link=\"glossary://GlossaryEntry_Action_FireCannons\"><sprite=\"Inline\" name=\"action_fire\" tint=1></link> \"Fire the starboard cannons!\"",
+      "female": ""
+    },
+    {
+      "id": 246,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Report\"><sprite=\"Inline\" name=\"action_report\" tint=1></link> \"Report to...\"",
+      "female": ""
+    },
+    {
+      "id": 247,
+      "default": "Your crew scurry across the deck to take up their positions.",
+      "female": ""
+    },
+    {
+      "id": 248,
+      "default": "[ERROR] AI used unrecognized ship combat action.",
+      "female": ""
+    },
+    {
+      "id": 249,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Ram\"><sprite=\"Inline\" name=\"action_full_sail\" tint=1></link> \"Ramming speed!\"",
+      "female": ""
+    },
+    {
+      "id": 250,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Board\"><sprite=\"Inline\" name=\"action_board\" tint=1></link> \"Prepare to board!\"",
+      "female": ""
+    },
+    {
+      "id": 257,
+      "default": "You squint at a dark spot on the horizon and see unfamiliar colors snapping in the breeze.",
+      "female": ""
+    },
+    {
+      "id": 258,
+      "default": "As the ship draws near, its crew throws open the gun ports.",
+      "female": ""
+    },
+    {
+      "id": 259,
+      "default": "[Enter Combat.] \"Engage!\"",
+      "female": ""
+    },
+    {
+      "id": 260,
+      "default": "[Retreat.] \"This isn't our fight!\"",
+      "female": ""
+    },
+    {
+      "id": 261,
+      "default": "The opposing ship bears down upon you before you have the chance to flee.",
+      "female": ""
+    },
+    {
+      "id": 263,
+      "default": "Fire licks up your main mast and spreads to your sails. The sails throw glowing embers across the deck, and that, too, bursts into flame. The fire spreads too quickly to stifle, and your ship is overtaken. Those of your crew who don't burn alive drown when what remains of your ship finally sinks beneath the waves.",
+      "female": ""
+    },
+    {
+      "id": 264,
+      "default": "Fire licks up the enemy vessel's main mast and spreads to its sails. The sails throw glowing embers across the deck, and that, too, bursts into flame. The fire spreads too quickly for the opposing captain to stifle, and the ship is overtaken. Those of the crew who don't burn alive drown when what remains of their ship finally sinks beneath the waves.",
+      "female": ""
+    },
+    {
+      "id": 266,
+      "default": "The enemy vessel recedes behind you until, finally, it disappears from the horizon.",
+      "female": ""
+    },
+    {
+      "id": 268,
+      "default": "Sea water floods [ShipDuel_PlayerShip]'s hold. The deck tilts beneath you, and your ship slides with little more than a whisper into the arms of the sea.\r\n\r\nThe dark presses in, the bright burn of sunlight now nothing but a hazy memory. You take your last breath below the waves. Your journey is ended.",
+      "female": ""
+    },
+    {
+      "id": 269,
+      "default": "Water floods the ship's hold, and the vessel soon slips beneath the waves, wiped from the surface of the sea as summarily as if it had never sailed at all.",
+      "female": ""
+    },
+    {
+      "id": 270,
+      "default": "[ShipDuel_PlayerShip]'s crew hurries to take in the sails. Your ship slows to a halt.",
+      "female": ""
+    },
+    {
+      "id": 274,
+      "default": "[ShipDuel_PlayerShip] executes a smooth turn to port.",
+      "female": ""
+    },
+    {
+      "id": 279,
+      "default": "[ShipDuel_PlayerShip] executes a smooth turn to starboard.",
+      "female": ""
+    },
+    {
+      "id": 284,
+      "default": "The crew of [ShipDuel_OpponentShip] take up new stations with a bark from their captain spurring them to haste.",
+      "female": ""
+    },
+    {
+      "id": 285,
+      "default": "The enemy captain barks an order, and the crew of [ShipDuel_OpponentShip] hurry to their stations.",
+      "female": ""
+    },
+    {
+      "id": 286,
+      "default": "[ShipDuel_OpponentShip] turns its stern through the wind.",
+      "female": ""
+    },
+    {
+      "id": 287,
+      "default": "The enemy vessel jibes through the wind, reversing course.",
+      "female": ""
+    },
+    {
+      "id": 288,
+      "default": "[ShipDuel_OpponentShip] turns to port, attempting to gain the wind advantage.",
+      "female": ""
+    },
+    {
+      "id": 290,
+      "default": "[ShipDuel_OpponentShip] turns to starboard, attempting to gain the wind advantage.",
+      "female": ""
+    },
+    {
+      "id": 292,
+      "default": "[ShipDuel_OpponentShip] misjudged the wind's direction. As the crew executes their maneuver, the ship's sails abruptly flutter loose on their masts. The ship comes to a stop.",
+      "female": ""
+    },
+    {
+      "id": 293,
+      "default": "The enemy ship comes to an abrupt stop in the water. They've lost the wind.",
+      "female": ""
+    },
+    {
+      "id": 294,
+      "default": "The dark presses in, the bright burn of sunlight now nothing but a hazy memory. You take your last breath below the waves. Your journey is ended.",
+      "female": ""
+    },
+    {
+      "id": 295,
+      "default": "You order your crew to flee with all possible haste.\r\n\r\nThe enemy vessel recedes behind you until, finally, it disappears from the horizon.",
+      "female": ""
+    },
+    {
+      "id": 297,
+      "default": "[Close to Board.] \"Give no quarter! Charge!\"",
+      "female": ""
+    },
+    {
+      "id": 300,
+      "default": "But your ship is not unscathed. Water pours through the holes in [ShipDuel_PlayerShip]'s hull. In what feels like an instant, your ship is half-submerged. Some of your crew leap from the deck into the sea. They cling to flotsam and scattered cargo, sputtering and wild-eyed.",
+      "female": ""
+    },
+    {
+      "id": 301,
+      "default": "The opposing crew lets out a chorus of raucous cheers as they storm your deck.",
+      "female": ""
+    },
+    {
+      "id": 302,
+      "default": "[ShipDuel_OpponentShip] barrels down upon you. With a raucous cry from its crew, the ship plows into yours.",
+      "female": ""
+    },
+    {
+      "id": 303,
+      "default": "<link=\"glossary://GlossaryEntry_Action_BraceForImpact\"><sprite=\"Inline\" name=\"action_brace\" tint=1></link> \"Brace for impact!\" ([ShipDuel_BraceChance] to negate Injuries)",
+      "female": ""
+    },
+    {
+      "id": 304,
+      "default": "Your crew scurries to secure themselves for impact. The deck hands grab tight to the railing on the main deck, and those who can't make it down from the rigging in time lash themselves to the masts.",
+      "female": ""
+    },
+    {
+      "id": 306,
+      "default": "The [ShipDuel_OpponentShip] crew throw themselves against the railing of the main deck, and those in the rigging lash themselves to the mast.\r\n\r\n\"Brace for impact!\" Their boatswain yells.",
+      "female": ""
+    },
+    {
+      "id": 307,
+      "default": "Though your crew is swift, it takes [ShipDuel_PlayerShip] some time to come about for the next round of maneuvers.",
+      "female": ""
+    },
+    {
+      "id": 308,
+      "default": "[ERROR] Player tried to continue unsupported ongoing action.",
+      "female": ""
+    },
+    {
+      "id": 309,
+      "default": "Your opponent's ship comes about with all possible haste. Though the opposing crew is fleet of foot, turning a vessel of [ShipDuel_OpponentShip]'s size still takes time.",
+      "female": ""
+    },
+    {
+      "id": 310,
+      "default": "[ERROR] Opponent tried to continue unsupported ongoing action.",
+      "female": ""
+    },
+    {
+      "id": 312,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Surrender\"><sprite=\"Inline\" name=\"ic_ship_surrender\" tint=1> [Surrender.]",
+      "female": ""
+    },
+    {
+      "id": 313,
+      "default": "For your surrender, [ShipDuel_Opponent] demands:\r\n[ShipDuel_SurrenderCost]",
+      "female": ""
+    },
+    {
+      "id": 314,
+      "default": "[Accept.]",
+      "female": ""
+    },
+    {
+      "id": 315,
+      "default": "[Reject.]",
+      "female": ""
+    },
+    {
+      "id": 316,
+      "default": "You raise a white flag to signal your surrender. [ShipDuel_Opponent] sends a handful of sailors over to collect the spoils of your defeat.\r\n\r\nA rowdy cheer goes up from [ShipDuel_Opponent]'s crew. [ShipDuel_OpponentShip] pulls away, and you are left alone on the high seas.",
+      "female": ""
+    },
+    {
+      "id": 317,
+      "default": "Choose a course of action.",
+      "female": ""
+    },
+    {
+      "id": 318,
+      "default": "You lack the crew to manage your ship, so you must surrender.\r\n\r\n[ShipDuel_Opponent] will take:\r\n[ShipDuel_SurrenderCost]",
+      "female": ""
+    },
+    {
+      "id": 319,
+      "default": "[Accept.]",
+      "female": ""
+    },
+    {
+      "id": 320,
+      "default": "[Reject.]",
+      "female": ""
+    },
+    {
+      "id": 321,
+      "default": "The crew mutters nervously as you give the order to charge. [ShipDuel_PlayerShip] will be exposed to raking fire and the risk of casualties:\r\n\r\n[ShipDuel_CloseToBoardCost]",
+      "female": ""
+    },
+    {
+      "id": 322,
+      "default": "[Continue sailing onward.]",
+      "female": ""
+    },
+    {
+      "id": 323,
+      "default": "\"On second thought...\"",
+      "female": ""
+    },
+    {
+      "id": 324,
+      "default": "\"\"",
+      "female": ""
+    },
+    {
+      "id": 326,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Board\"><sprite=\"Inline\" name=\"action_board\" tint=1></link> \"Give no Quarter! Charge!\"",
+      "female": ""
+    },
+    {
+      "id": 327,
+      "default": "The crew mutters nervously as you give the order to charge. [ShipDuel_PlayerShip] will be exposed to raking fire:\r\n\r\n[ShipDuel_CloseToBoardCost]",
+      "female": ""
+    },
+    {
+      "id": 328,
+      "default": "\"Charge!\"",
+      "female": ""
+    },
+    {
+      "id": 329,
+      "default": "\"On second thought...\"",
+      "female": ""
+    },
+    {
+      "id": 331,
+      "default": "<link=\"glossary://GlossaryEntry_Action_Flee\"><sprite=\"Inline\" name=\"action_flee\" tint=1></link> \"Retreat!\"",
+      "female": ""
+    },
+    {
+      "id": 332,
+      "default": "You order your crew to flee with all possible haste.\r\n\r\nThe enemy vessel recedes behind you until, finally, it disappears from the horizon.",
+      "female": ""
+    },
+    {
+      "id": 333,
+      "default": "Your crew misjudges the wind's direction, failing to pick up enough speed to escape. The ship's sails abruptly flutter loose on their masts.",
+      "female": ""
+    }
+  ]
+}
