@@ -1,0 +1,2100 @@
+{
+  "ID": "9979b4a8-2d84-4917-ad57-8c97b57126aa",
+  "Filename": "Conversations/LAX02_01_Iceberg_Dungeon/LAX02_02_cv_hub_huana_bridge.conversation",
+  "ConversationScriptNode": {
+    "RequiresValidChildNode": false,
+    "NotSkippable": false,
+    "IsQuestionNode": false,
+    "HideSpeaker": false,
+    "IsTempText": false,
+    "PlayVOAs3DSound": false,
+    "PlayType": 0,
+    "Persistence": 0,
+    "NoPlayRandomWeight": 0,
+    "VOPositioning": 0,
+    "DisplayType": 1,
+    "NodeID": -200,
+    "ContainerNodeID": -1,
+    "Links": [],
+    "ClassExtender": {
+      "ExtendedProperties": []
+    },
+    "Conditionals": {
+      "Operator": 0,
+      "Components": []
+    },
+    "OnEnterScripts": [],
+    "OnExitScripts": [],
+    "OnUpdateScripts": []
+  },
+  "ConversationType": 0,
+  "CharacterMappings": [
+    {
+      "Guid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "InstanceTag": "LAX02_NPC_Huana_Builder"
+    }
+  ],
+  "Nodes": [
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": true,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 0,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 0,
+          "ToNodeID": 1,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 0,
+          "ToNodeID": 4,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 1,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 1,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 2,
+          "FromNodeID": 1,
+          "ToNodeID": 4,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SoulMemoryCameraEnable(Boolean)",
+            "Parameters": [
+              "True"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1592123265,
+            "ParameterHash": 1139477981
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": true,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 4,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 5,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 6,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 24,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 14,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 11,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SoulMemoryCameraEnable(Boolean)",
+            "Parameters": [
+              "True"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1592123265,
+            "ParameterHash": 1139477981
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 5,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 5,
+          "ToNodeID": 8,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 5,
+          "ToNodeID": 26,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 1,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 6,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 6,
+          "ToNodeID": 9,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 1,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 8,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 8,
+          "ToNodeID": 23,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 9,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 9,
+          "ToNodeID": 27,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 11,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SoulMemoryCameraEnable(Boolean)",
+            "Parameters": [
+              "False"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1592123265,
+            "ParameterHash": 426123708
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 12,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 12,
+          "ToNodeID": 25,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "d5c5fa75-a20b-48dc-aef4-94fe4e1d5cee",
+                "GreaterThanOrEqualTo",
+                "1"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": 1998536858
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 14,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 14,
+          "ToNodeID": 17,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "d5c5fa75-a20b-48dc-aef4-94fe4e1d5cee",
+                "GreaterThanOrEqualTo",
+                "1"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": 1998536858
+            },
+            "Not": false,
+            "Operator": 0
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean HasConversationNodeBeenPlayed(Guid, Int32)",
+              "Parameters": [
+                "9979b4a8-2d84-4917-ad57-8c97b57126aa",
+                "5"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -1870187966,
+              "ParameterHash": -1924420500
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 16,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 16,
+          "ToNodeID": 28,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 17,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 17,
+          "ToNodeID": 18,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 18,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 18,
+          "ToNodeID": 20,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 18,
+          "ToNodeID": 19,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void StartTimer(Guid)",
+            "Parameters": [
+              "902e9c06-545b-4611-993f-626335624233"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -99198783,
+            "ParameterHash": -804622445
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 19,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 19,
+          "ToNodeID": 21,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 20,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 20,
+          "ToNodeID": 22,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 21,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SoulMemoryCameraEnable(Boolean)",
+            "Parameters": [
+              "False"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1592123265,
+            "ParameterHash": 426123708
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void Kill(Guid)",
+            "Parameters": [
+              "902e9c06-f6a6-4c94-8ad4-529d5f35228e"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -576473080,
+            "ParameterHash": 1119466846
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 22,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SoulMemoryCameraEnable(Boolean)",
+            "Parameters": [
+              "False"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1592123265,
+            "ParameterHash": 426123708
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void FadeOutGameObject(Guid, Single, FadeOutBehavior)",
+            "Parameters": [
+              "902e9c06-f6a6-4c94-8ad4-529d5f35228e",
+              "2",
+              "Destroy"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1110560859,
+            "ParameterHash": -702329669
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void AIPathToPoint(Guid, Guid, MovementType)",
+            "Parameters": [
+              "902e9c06-f6a6-4c94-8ad4-529d5f35228e",
+              "b1a8e901-0000-0000-0000-000000000000",
+              "Walk"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1812524066,
+            "ParameterHash": 382184842
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 23,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 23,
+          "ToNodeID": 12,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 23,
+          "ToNodeID": 25,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 24,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 24,
+          "ToNodeID": 16,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "d5c5fa75-a20b-48dc-aef4-94fe4e1d5cee",
+                "GreaterThanOrEqualTo",
+                "1"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": 1998536858
+            },
+            "Not": false,
+            "Operator": 0
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean HasConversationNodeBeenPlayed(Guid, Int32)",
+              "Parameters": [
+                "3fa7b7b0-e37f-44fe-a9bd-9a36dc71914c",
+                "70"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -1870187966,
+              "ParameterHash": 1818583632
+            },
+            "Not": false,
+            "Operator": 0
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean HasConversationNodeBeenPlayed(Guid, Int32)",
+              "Parameters": [
+                "9979b4a8-2d84-4917-ad57-8c97b57126aa",
+                "5"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -1870187966,
+              "ParameterHash": -1924420500
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 25,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 2,
+          "FromNodeID": 25,
+          "ToNodeID": 4,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 26,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 2,
+          "FromNodeID": 26,
+          "ToNodeID": 4,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 27,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 2,
+          "FromNodeID": 27,
+          "ToNodeID": 4,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 28,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 28,
+          "ToNodeID": 29,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 28,
+          "ToNodeID": 30,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 28,
+          "ToNodeID": 31,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 29,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 29,
+          "ToNodeID": 33,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void DispositionAddPoints(Guid, Guid)",
+            "Parameters": [
+              "c7d9588c-bc62-4c0c-a2e3-76a970e7b7d4",
+              "54772c0d-cf3f-4589-8cab-9f3601d575c2"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1769062230,
+            "ParameterHash": 194006907
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 30,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 30,
+          "ToNodeID": 34,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void DispositionAddPoints(Guid, Guid)",
+            "Parameters": [
+              "6d4a08e8-3b00-4abc-b786-ec051f0f3b8a",
+              "54772c0d-cf3f-4589-8cab-9f3601d575c2"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1769062230,
+            "ParameterHash": -1500557251
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 31,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 31,
+          "ToNodeID": 35,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsBackground(Guid, Guid)",
+              "Parameters": [
+                "b1a8e901-0000-0000-0000-000000000000",
+                "180ec9d0-dac8-4832-9387-469b3a12de8d"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -577846499,
+              "ParameterHash": -2063565401
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void DispositionAddPoints(Guid, Guid)",
+            "Parameters": [
+              "6d4a08e8-3b00-4abc-b786-ec051f0f3b8a",
+              "54772c0d-cf3f-4589-8cab-9f3601d575c2"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1769062230,
+            "ParameterHash": -1500557251
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void DispositionAddPoints(Guid, Guid)",
+            "Parameters": [
+              "929e116a-996d-4453-903c-af41ff67e62f",
+              "54772c0d-cf3f-4589-8cab-9f3601d575c2"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1769062230,
+            "ParameterHash": -2091039778
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 33,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 33,
+          "ToNodeID": 18,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 34,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 34,
+          "ToNodeID": 18,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": true,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 35,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 35,
+          "ToNodeID": 18,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,30ebe4ef-611f-4e70-bcd0-c2655e8ef2ef",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.ScriptNode, OEIFormats",
+      "RequiresValidChildNode": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": -200,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": []
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    }
+  ],
+  "ClassExtender": {
+    "ExtendedProperties": [
+      "DisplayType,Conversation"
+    ]
+  },
+  "UObjectName": "LAX02_02_cv_hub_huana_bridge_LAX2 (Beast of Winter)"
+}

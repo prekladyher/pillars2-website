@@ -1,0 +1,4108 @@
+{
+  "ID": "0e74706a-96b6-4b5c-825a-379eff90b884",
+  "Filename": "Conversations/26_Uncharted_Islands/26_si_Flame_Naga_Cave.conversation",
+  "ConversationScriptNode": {
+    "RequiresValidChildNode": false,
+    "NotSkippable": false,
+    "IsQuestionNode": false,
+    "HideSpeaker": false,
+    "IsTempText": false,
+    "PlayVOAs3DSound": false,
+    "PlayType": 0,
+    "Persistence": 0,
+    "NoPlayRandomWeight": 0,
+    "VOPositioning": 0,
+    "DisplayType": 1,
+    "NodeID": -200,
+    "ContainerNodeID": -1,
+    "Links": [],
+    "ClassExtender": {
+      "ExtendedProperties": []
+    },
+    "Conditionals": {
+      "Operator": 0,
+      "Components": []
+    },
+    "OnEnterScripts": [],
+    "OnExitScripts": [],
+    "OnUpdateScripts": []
+  },
+  "ConversationType": 0,
+  "CharacterMappings": [
+    {
+      "Guid": "6a99a109-0000-0000-0000-000000000000",
+      "InstanceTag": ""
+    }
+  ],
+  "Nodes": [
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "00000000-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 0,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 0,
+          "ToNodeID": 16,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 0,
+          "ToNodeID": 4,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,00000000-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 4,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 24,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 4,
+          "ToNodeID": 25,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_uncharted_10_naga_cave_far.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": -1396779533
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 8,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 8,
+          "ToNodeID": 10,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean AreGuidsSameObject(Guid, Guid)",
+              "Parameters": [
+                "b1a8e901-0000-0000-0000-000000000000",
+                "4e3d0000-0000-0000-0000-000000000000"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -2074419224,
+              "ParameterHash": 246594871
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_bat.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": 1564523906
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void AddInjury(Guid, Guid, Boolean)",
+            "Parameters": [
+              "4e3d0000-0000-0000-0000-000000000000",
+              "99401491-e885-48c2-998d-d41479ba23c2",
+              "False"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1259303049,
+            "ParameterHash": 156180552
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 9,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 9,
+          "ToNodeID": 10,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_bat.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": 1564523906
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void AddInjury(Guid, Guid, Boolean)",
+            "Parameters": [
+              "4e3d0000-0000-0000-0000-000000000000",
+              "99401491-e885-48c2-998d-d41479ba23c2",
+              "False"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1259303049,
+            "ParameterHash": 156180552
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 3,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 3,
+          "ToNodeID": 13,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 2,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 2,
+          "ToNodeID": 12,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 1,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 1,
+          "ToNodeID": 26,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 1,
+          "ToNodeID": 2,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 1,
+          "ToNodeID": 3,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_uncharted_10_naga_cave_near.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": -838197130
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 5,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 5,
+          "ToNodeID": 10,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsSkillValue(Guid, Guid, Operator, Int32, Boolean, Boolean)",
+              "Parameters": [
+                "4e3d0000-0000-0000-0000-000000000000",
+                "fefc4d3d-250d-4c32-85e0-62a851240e62",
+                "GreaterThanOrEqualTo",
+                "10",
+                "True",
+                "False"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 193829831,
+              "ParameterHash": 1415197706
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_bat.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": 1564523906
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 10,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "b_UC10_Ext_Enc_Completed",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": 2102109566
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void LoadEncounterMap(EncounterScenarioType)",
+            "Parameters": [
+              "Standard"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 294596573,
+            "ParameterHash": 1969568614
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 12,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void AreaTransition(Guid, PointLocation, String)",
+            "Parameters": [
+              "1c08f44e-06d3-4cd9-abd3-d43e0c65a86e",
+              "Interior01",
+              ""
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1331549828,
+            "ParameterHash": -1827800125
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 13,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void AreaTransition(Guid, PointLocation, String)",
+            "Parameters": [
+              "78d5b27b-122e-481f-93e2-0ce9f074a9e7",
+              "ReferenceByName",
+              ""
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1331549828,
+            "ParameterHash": -1280220256
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsInScene(Guid, Guid)",
+                  "Parameters": [
+                    "b1a8e901-0000-0000-0000-000000000000",
+                    "faa859af-83b2-4dbb-bde9-fd4724ab6439"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 940969680,
+                  "ParameterHash": 1821730577
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 1,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 15,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 15,
+          "ToNodeID": 23,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\poe1_archive\\generic\\gen_sii_cliff_climb.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": -2015216945
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 16,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 16,
+          "ToNodeID": 17,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 16,
+          "ToNodeID": 21,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean HasConversationNodeBeenPlayed(Guid, Int32)",
+              "Parameters": [
+                "0e74706a-96b6-4b5c-825a-379eff90b884",
+                "15"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -1870187966,
+              "ParameterHash": 2110515334
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_uncharted_10_naga_cave_far.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": -1396779533
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 17,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 17,
+          "ToNodeID": 1,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 21,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 21,
+          "ToNodeID": 22,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 22,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void AreaTransition(Guid, PointLocation, String)",
+            "Parameters": [
+              "78d5b27b-122e-481f-93e2-0ce9f074a9e7",
+              "ReferenceByName",
+              ""
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1331549828,
+            "ParameterHash": -1280220256
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsInScene(Guid, Guid)",
+                  "Parameters": [
+                    "b1a8e901-0000-0000-0000-000000000000",
+                    "faa859af-83b2-4dbb-bde9-fd4724ab6439"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 940969680,
+                  "ParameterHash": 1821730577
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 23,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 23,
+          "ToNodeID": 27,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 23,
+          "ToNodeID": 29,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 23,
+          "ToNodeID": 28,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetInteractionImage(String)",
+            "Parameters": [
+              "gui\\interactionportraits\\re_world_map\\re_si_naga.png"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 2042494187,
+            "ParameterHash": -1971518796
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetSkillCheckTokenWorst(Guid)",
+            "Parameters": [
+              "fefc4d3d-250d-4c32-85e0-62a851240e62"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -1064642223,
+            "ParameterHash": 835126719
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 24,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 24,
+          "ToNodeID": 15,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 24,
+          "ToNodeID": 1,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 25,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 26,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 26,
+          "ToNodeID": 12,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsSkillValue(Guid, Guid, Operator, Int32, Boolean, Boolean)",
+              "Parameters": [
+                "b1a8e901-0000-0000-0000-000000000000",
+                "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+                "GreaterThanOrEqualTo",
+                "10",
+                "True",
+                "False"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 193829831,
+              "ParameterHash": 874618496
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetPartyStealth(Boolean)",
+            "Parameters": [
+              "True"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 380595566,
+            "ParameterHash": -2058142320
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 27,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 27,
+          "ToNodeID": 30,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 27,
+          "ToNodeID": 32,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 27,
+          "ToNodeID": 31,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 27,
+          "ToNodeID": 36,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "03ff06a3-2638-41b7-915a-c8d00b036144",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": 485209544
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "f979e598-52a5-4eec-bc43-2d4db9240d22",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": -403318980
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "419d54c4-7865-4c73-8dd7-f287a1555b9d",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": -407266538
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "99585b0b-90f5-49a1-8851-ba30f56d1b13",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": -1305964978
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "8feec9e3-725a-49c0-b6f5-07da86130e55",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": -1252680880
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "7a643864-91bc-4b0f-a346-cb19f74c6574",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": -1287153766
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "bae9efaf-cdad-483d-b1bd-287cec935142",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": -1319904654
+            },
+            "Not": false,
+            "Operator": 1
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+              "Parameters": [
+                "f85413db-fd73-42fd-ad68-027faa5784f2",
+                "GreaterThan",
+                "0"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 782680602,
+              "ParameterHash": 1285832674
+            },
+            "Not": false,
+            "Operator": 1
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void InteractionSelectPartyMember(Int32)",
+            "Parameters": [
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 997632775,
+            "ParameterHash": 1233874278
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "8"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758605
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "f85413db-fd73-42fd-ad68-027faa5784f2",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": 285927987
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "7"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758616
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "bae9efaf-cdad-483d-b1bd-287cec935142",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": 1975157955
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "6"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758615
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "7a643864-91bc-4b0f-a346-cb19f74c6574",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": 2007908843
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "5"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758618
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "8feec9e3-725a-49c0-b6f5-07da86130e55",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": 2042381729
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "4"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758617
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "99585b0b-90f5-49a1-8851-ba30f56d1b13",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": 1989097631
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "3"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758612
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "419d54c4-7865-4c73-8dd7-f287a1555b9d",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": -1407171225
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "2"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758611
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "f979e598-52a5-4eec-bc43-2d4db9240d22",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": -1403223667
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "n_UC10_Enc_Explosive_Used",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": -171758614
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsItemCount(Guid, Operator, Int32)",
+                  "Parameters": [
+                    "03ff06a3-2638-41b7-915a-c8d00b036144",
+                    "GreaterThanOrEqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 782680602,
+                  "ParameterHash": -514695143
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        }
+      ],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 28,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 28,
+          "ToNodeID": 34,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.PlayerResponseNode, OEIFormats",
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 3,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 29,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 29,
+          "ToNodeID": 33,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 30,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 30,
+          "ToNodeID": 5,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 30,
+          "ToNodeID": 8,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 30,
+          "ToNodeID": 9,
+          "PointsToGhost": false,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean AreGuidsSameObject(Guid, Guid)",
+              "Parameters": [
+                "4e3d0001-0000-0000-0000-000000000000",
+                "b1a8e901-0000-0000-0000-000000000000"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -2074419224,
+              "ParameterHash": -332654668
+            },
+            "Not": false,
+            "Operator": 0
+          },
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsSkillValue(Guid, Guid, Operator, Int32, Boolean, Boolean)",
+              "Parameters": [
+                "4e3d0001-0000-0000-0000-000000000000",
+                "e67f20e3-5bf9-4d87-9bda-211405107362",
+                "GreaterThanOrEqualTo",
+                "12",
+                "False",
+                "False"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 193829831,
+              "ParameterHash": -552320919
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "b_UC10_Enc_Totem_Explode",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": 928948406
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f85413db-fd73-42fd-ad68-027faa5784f2",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -849671612
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "8"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375336
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "bae9efaf-cdad-483d-b1bd-287cec935142",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 2114313652
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "7"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375325
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "7a643864-91bc-4b0f-a346-cb19f74c6574",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1838275468
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "6"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375326
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "8feec9e3-725a-49c0-b6f5-07da86130e55",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -931559146
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "5"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375323
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "99585b0b-90f5-49a1-8851-ba30f56d1b13",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1071825320
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "4"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375324
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "419d54c4-7865-4c73-8dd7-f287a1555b9d",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1319929712
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "3"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375329
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f979e598-52a5-4eec-bc43-2d4db9240d22",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 204218282
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "2"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375330
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "03ff06a3-2638-41b7-915a-c8d00b036144",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1895448478
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375327
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SpecifyCharacter(Guid, Int32)",
+            "Parameters": [
+              "6dcee000-0000-0000-0000-000000000000",
+              "0"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 108137476,
+            "ParameterHash": 1350030585
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 31,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 31,
+          "ToNodeID": 5,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 31,
+          "ToNodeID": 8,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 31,
+          "ToNodeID": 9,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean IsSkillValue(Guid, Guid, Operator, Int32, Boolean, Boolean)",
+              "Parameters": [
+                "4e3d0001-0000-0000-0000-000000000000",
+                "e67f20e3-5bf9-4d87-9bda-211405107362",
+                "GreaterThanOrEqualTo",
+                "12",
+                "False",
+                "False"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": 193829831,
+              "ParameterHash": -552320919
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SetGlobalValue(String, Int32)",
+            "Parameters": [
+              "b_UC10_Enc_Totem_Explode",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 1935477378,
+            "ParameterHash": 928948406
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f85413db-fd73-42fd-ad68-027faa5784f2",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -849671612
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "8"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375336
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "bae9efaf-cdad-483d-b1bd-287cec935142",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 2114313652
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "7"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375325
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "7a643864-91bc-4b0f-a346-cb19f74c6574",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1838275468
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "6"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375326
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "8feec9e3-725a-49c0-b6f5-07da86130e55",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -931559146
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "5"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375323
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "99585b0b-90f5-49a1-8851-ba30f56d1b13",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1071825320
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "4"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375324
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "419d54c4-7865-4c73-8dd7-f287a1555b9d",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1319929712
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "3"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375329
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f979e598-52a5-4eec-bc43-2d4db9240d22",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 204218282
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "2"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375330
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "03ff06a3-2638-41b7-915a-c8d00b036144",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1895448478
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375327
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SpecifyCharacter(Guid, Int32)",
+            "Parameters": [
+              "6dcee000-0000-0000-0000-000000000000",
+              "0"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 108137476,
+            "ParameterHash": 1350030585
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 32,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 32,
+          "ToNodeID": 5,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 32,
+          "ToNodeID": 8,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 32,
+          "ToNodeID": 9,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean AreGuidsSameObject(Guid, Guid)",
+              "Parameters": [
+                "4e3d0001-0000-0000-0000-000000000000",
+                "b1a8e901-0000-0000-0000-000000000000"
+              ],
+              "Flags": "",
+              "UnrealCall": "",
+              "FunctionHash": -2074419224,
+              "ParameterHash": -332654668
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f85413db-fd73-42fd-ad68-027faa5784f2",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -849671612
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "8"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375336
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "bae9efaf-cdad-483d-b1bd-287cec935142",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 2114313652
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "7"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375325
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "7a643864-91bc-4b0f-a346-cb19f74c6574",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1838275468
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "6"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375326
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "8feec9e3-725a-49c0-b6f5-07da86130e55",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -931559146
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "5"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375323
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "99585b0b-90f5-49a1-8851-ba30f56d1b13",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1071825320
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "4"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375324
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "419d54c4-7865-4c73-8dd7-f287a1555b9d",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1319929712
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "3"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375329
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f979e598-52a5-4eec-bc43-2d4db9240d22",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 204218282
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "2"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375330
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "03ff06a3-2638-41b7-915a-c8d00b036144",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1895448478
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375327
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SpecifyCharacter(Guid, Int32)",
+            "Parameters": [
+              "6dcee000-0000-0000-0000-000000000000",
+              "0"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 108137476,
+            "ParameterHash": 1350030585
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 33,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 33,
+          "ToNodeID": 5,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 33,
+          "ToNodeID": 8,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 33,
+          "ToNodeID": 9,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SpecifyCharacter(Guid, Int32)",
+            "Parameters": [
+              "6dcee000-0000-0000-0000-000000000000",
+              "0"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 108137476,
+            "ParameterHash": 1350030585
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 34,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 34,
+          "ToNodeID": 5,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 34,
+          "ToNodeID": 8,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 34,
+          "ToNodeID": 9,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,6a99a109-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void SpecifyCharacter(Guid, Int32)",
+            "Parameters": [
+              "6dcee000-0000-0000-0000-000000000000",
+              "0"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 108137476,
+            "ParameterHash": 1350030585
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.TalkNode, OEIFormats",
+      "EmotionType": "",
+      "EmotionStrength": 0.5,
+      "PersistEmotion": true,
+      "EmotionDelay": 0,
+      "SpeakerGuid": "6a99a109-0000-0000-0000-000000000000",
+      "ListenerGuid": "b1a8e901-0000-0000-0000-000000000000",
+      "ExternalVO": "",
+      "HasVO": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": 36,
+      "ContainerNodeID": -1,
+      "Links": [
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 36,
+          "ToNodeID": 5,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 36,
+          "ToNodeID": 8,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        },
+        {
+          "$type": "OEIFormats.FlowCharts.Conversations.DialogueLink, OEIFormats",
+          "RandomWeight": 1,
+          "PlayQuestionNodeVO": true,
+          "QuestionNodeTextDisplay": 0,
+          "FromNodeID": 36,
+          "ToNodeID": 9,
+          "PointsToGhost": true,
+          "Conditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ClassExtender": {
+            "ExtendedProperties": []
+          }
+        }
+      ],
+      "ClassExtender": {
+        "ExtendedProperties": [
+          "SpeakerAnimation,0",
+          "ListenerAnimation,0",
+          "DoNotClearText,False",
+          "FocusedSpeaker,00000000-0000-0000-0000-000000000000",
+          "VOEventOverride,None"
+        ]
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f85413db-fd73-42fd-ad68-027faa5784f2",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -849671612
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "8"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375336
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "bae9efaf-cdad-483d-b1bd-287cec935142",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 2114313652
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "7"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375325
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "7a643864-91bc-4b0f-a346-cb19f74c6574",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1838275468
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "6"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375326
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "8feec9e3-725a-49c0-b6f5-07da86130e55",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -931559146
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "5"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375323
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "99585b0b-90f5-49a1-8851-ba30f56d1b13",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1071825320
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "4"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375324
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "419d54c4-7865-4c73-8dd7-f287a1555b9d",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": -1319929712
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "3"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375329
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "f979e598-52a5-4eec-bc43-2d4db9240d22",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 204218282
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "2"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375330
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void RemoveItems(Guid, Int32)",
+            "Parameters": [
+              "03ff06a3-2638-41b7-915a-c8d00b036144",
+              "1"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": -326616246,
+            "ParameterHash": 1895448478
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": [
+              {
+                "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                "Data": {
+                  "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                  "Parameters": [
+                    "n_UC10_Enc_Explosive_Used",
+                    "EqualTo",
+                    "1"
+                  ],
+                  "Flags": "",
+                  "UnrealCall": "",
+                  "FunctionHash": 901380568,
+                  "ParameterHash": 712375327
+                },
+                "Not": false,
+                "Operator": 0
+              }
+            ]
+          }
+        },
+        {
+          "Data": {
+            "FullName": "Void SpecifyCharacter(Guid, Int32)",
+            "Parameters": [
+              "6dcee000-0000-0000-0000-000000000000",
+              "0"
+            ],
+            "Flags": "",
+            "UnrealCall": "",
+            "FunctionHash": 108137476,
+            "ParameterHash": 1350030585
+          },
+          "Conditional": {
+            "Operator": 0,
+            "Components": []
+          }
+        }
+      ],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    },
+    {
+      "$type": "OEIFormats.FlowCharts.Conversations.ScriptNode, OEIFormats",
+      "RequiresValidChildNode": false,
+      "NotSkippable": false,
+      "IsQuestionNode": false,
+      "HideSpeaker": false,
+      "IsTempText": false,
+      "PlayVOAs3DSound": false,
+      "PlayType": 0,
+      "Persistence": 0,
+      "NoPlayRandomWeight": 0,
+      "VOPositioning": 0,
+      "DisplayType": 1,
+      "NodeID": -200,
+      "ContainerNodeID": -1,
+      "Links": [],
+      "ClassExtender": {
+        "ExtendedProperties": []
+      },
+      "Conditionals": {
+        "Operator": 0,
+        "Components": []
+      },
+      "OnEnterScripts": [],
+      "OnExitScripts": [],
+      "OnUpdateScripts": []
+    }
+  ],
+  "ClassExtender": {
+    "ExtendedProperties": [
+      "DisplayType,Interaction"
+    ]
+  },
+  "UObjectName": "26_si_Flame_Naga_Cave_Base Game"
+}

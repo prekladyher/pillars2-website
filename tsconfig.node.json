@@ -5,12 +5,15 @@
     "vitest.config.*",
     "cypress.config.*",
     "nightwatch.conf.*",
-    "playwright.config.*"
+    "playwright.config.*",
+    "scripts/**/*.js"
   ],
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "types": ["node"]
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "allowJs": true,
+    "checkJs": true
   }
 }
